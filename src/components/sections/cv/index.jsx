@@ -32,8 +32,8 @@ const Cv = () => {
             <Collapse.Group>
               {experience.map((exp) => (
                 <Collapse
-                  title={exp.periodo}
-                  subtitle={exp.empresa}
+                  title={exp.empresa}
+                  subtitle={exp.periodo}
                   initialVisible={exp.open}
                   key={Math.random()}
                 >
@@ -57,7 +57,7 @@ const Cv = () => {
             <Spacer />
             <Grid.Container gap={2} justify="left">
               {skills.map((skill) => (
-                <Grid key={Math.random()} xs={24} sm={12}>
+                <Grid key={Math.random()} xs={12}>
                   <div>
                     <Capacity value={skill.experience} />
                     <Text span>{skill.title}</Text>
