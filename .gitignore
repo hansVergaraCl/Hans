@@ -8,6 +8,11 @@
 # testing
 /coverage
 
+/public
+/src
+
+*.json
+
 # misc
 .DS_Store
 .env.local
