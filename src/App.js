@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/sections/header";
+import Cv from "./components/sections/cv";
+import { Page, Spacer } from "@geist-ui/react";
+import Footer from "./components/sections/footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Page width="850px">
+      <Header />
+      <Spacer h={2} />
+      <Cv />
+      <Spacer h={2} />
+      <Footer />
+    </Page>
   );
 }
 
