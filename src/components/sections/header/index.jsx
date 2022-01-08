@@ -10,13 +10,12 @@ const Header = () => {
             <Image src={Yo} className="image-circle" />
             <Text h1>Hans Vergara Chamorro</Text>
             <Badge type="default">
-              <strong> Full Stack Developer</strong>
+              <strong> Ingeniero en Informática</strong>
             </Badge>
             <Text p style={{ color: "#585858" }}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-              modi fugiat fugit minus ut quod! Minus dolorum fuga ullam itaque
-              aliquam, explicabo illum, corrupti est sint quaerat consequuntur
-              blanditiis quis!
+              Full Stack Developer, apasionado por la programación y
+              autodidacta, me fascina todo lo que tenga que ver con nuevas
+              tecnologías y trabajar en proyectos complejos
             </Text>
           </Card>
         </Grid>
